@@ -1,9 +1,9 @@
-#build
+# Build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" 
 make
 
-#outputs
+# Outputs
 ./src/helloci_run
 ./tst/helloci_tst
 
@@ -11,4 +11,3 @@ make
 make clean
 rm -rf *
 rm -rf ../lib/googletest/g* *
-
