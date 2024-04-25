@@ -1,6 +1,6 @@
 # Build
-cd build
-cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" 
+cd build;
+cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles";
 make
 
 # Outputs
@@ -8,6 +8,6 @@ make
 ./tst/helloci_tst
 
 # Clean up
-make clean
-rm -rf *
+make clean;
+rm -rf *;
 rm -rf ../lib/googletest/g* *
