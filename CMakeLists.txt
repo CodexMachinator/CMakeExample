@@ -4,7 +4,7 @@ project(example)
 find_package(Git REQUIRED)
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(src)
+include_directories(src/headers)
 
 add_subdirectory(lib)
 add_subdirectory(src)
